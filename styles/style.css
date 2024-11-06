@@ -374,7 +374,6 @@
 .button__text {
   font-family: var(--accent-font);
   font-size: 14px;
-  font-family: var(--accent-font);
   font-weight: var(--main-font-weight);
   mix-blend-mode: difference;
   position: relative;
@@ -412,6 +411,7 @@
   gap: 6px;
   inline-size: 335px;
   block-size: 55px;
+  border: none;
 }
 
 .button__floppy-icon {
@@ -439,7 +439,6 @@
   color: var(--accent-color);
   font-family: var(--accent-font);
   background-color: var(--bg-color);
-  transition: opacity 0.3s ease-in-out;
   inline-size: 357px;
 }
 
@@ -447,10 +446,6 @@
   .content__dialog {
     inline-size: 341px;
   }
-}
-
-.content__button-footer {
-  border: none;
 }
 
 @media (width <=376px) {
