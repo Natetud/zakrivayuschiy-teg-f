@@ -8,12 +8,7 @@
 :root.theme-light {
     --bg-color: #fff;
     --accent-color: #000;
-    --accent-font: "PressStart2P-Regular";
-    --main-font: "Inter";
-    --main-font-weight: 400;
-    --accent-font-weight: 700;
     --difference-color: var(--bg-color);
-    --heart-color: #f00;
     --gradient: repeating-linear-gradient(90deg, #d3d3d3 0px 2px, transparent 2px 4px),
     repeating-linear-gradient(#d3d3d3 0px 2px, transparent 2px 4px),
     linear-gradient(#e7e7e7 0.01%, #1a1a1a);
@@ -26,10 +21,6 @@
 :root.theme-dark {
     --bg-color: #000;
     --accent-color: #00cc14;
-    --accent-font: "PressStart2P-Regular";
-    --main-font: "Inter";
-    --main-font-weight: 400;
-    --accent-font-weight: 700;
     --difference-color: var(--bg-color);
     --gradient: repeating-linear-gradient(90deg, #000 0px 2px, transparent 2px 4px),
     repeating-linear-gradient(#000 0px 2px, transparent 2px 4px),
@@ -43,14 +34,10 @@
     display: none;
 }
 
-@media (color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
    :root {
     --bg-color: #000;
     --accent-color: #00cc14;
-    --accent-font: "PressStart2P-Regular";
-    --main-font: "Inter";
-    --main-font-weight: 400;
-    --accent-font-weight: 700;
     --difference-color: var(--bg-color);
     --gradient: repeating-linear-gradient(90deg, #000 0px 2px, transparent 2px 4px),
     repeating-linear-gradient(#000 0px 2px, transparent 2px 4px),
