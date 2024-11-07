@@ -15,7 +15,8 @@
     --border: 2px solid var(--accent-color);
     --button-content-color: #fff;
     --text-shadow-color: #fff;
-
+    --main-font-weight: 400;
+    --accent-font-weight: 700;
 }
 
 :root.theme-dark {
@@ -28,6 +29,8 @@
     --border: 2px solid var(--accent-color);
     --button-content-color: #00cc14;
     --text-shadow-color: #000;
+    --main-font-weight: 465;
+    --accent-font-weight: 785;
 }
 
 .page.theme-dark .header__decor {
@@ -45,5 +48,7 @@
     --border: 2px solid var(--accent-color);
     --button-content-color: #00cc14;
     --text-shadow-color: #000;
+    --main-font-weight: 465;
+    --accent-font-weight: 785;
    }
 }
